@@ -74,6 +74,9 @@ Common semantic tags in HTML5 include:
    </footer>
 
 3. What is the difference between inline and block elements?
+   Block elements start on a new line and take the full width of the container, while inline elemenets do not start on a new line and only take the required width for thier content.
+
+
 4. Difference between localStorage and sessionStorage?
 5. What is SVG?
 6. What are the audio and video tags in HTML5?
