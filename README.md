@@ -78,6 +78,7 @@ Common semantic tags in HTML5 include:
 
 
 4. Difference between localStorage and sessionStorage?
+
 5. What is SVG?
 6. What are the audio and video tags in HTML5?
 7. What is the location object in HTML?
