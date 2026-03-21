@@ -4,7 +4,7 @@ HTML
 1. Difference between HTML and HTML5
 1️⃣ What is HTML?
 HTML (HyperText Markup Language) is the standard language used to create web pages.
-Older versions (like HTML 4.01) were mainly used to structure content.
+HTML Older versions (like 4.01) were mainly used to structure the content.
 
 2️⃣ What is HTML5?
 HTML5 is the latest version of HTML. It introduced new features like semantic tags, audio/video support, and better form controls.
@@ -16,7 +16,7 @@ Audio and Video Support:
 Older HTML versions did not support audio and video directly and required plugins like Flash, whereas HTML5 provides built-in <audio> and <video> tags.
 
 Semantic Tags:
-Older HTML did not include semantic tags, while HTML5 introduced semantic elements such as <header>, <footer>, <article>, and <section> to better describe the structure of a webpage.
+Older HTML did not include semantic tags, while HTML5 introduced semantic elements such as <header>, <footer>, <article>, and <section> to describe better structure of a webpage.
 
 Graphics Support:
 In older HTML, graphics required external plugins, whereas HTML5 supports graphics using <canvas> and SVG.
@@ -78,16 +78,17 @@ Common semantic tags in HTML5 include:
 
 
 4. Difference between localStorage and sessionStorage?
+   localStorage and sessionStorage are both used to store data in the browser as key-value pairs. The main difference is localStorage stores data permanently until it is manually cleared, even after closing the browser. sessionStorage stores data only for the current session, meaning once the tab or browser is closed, the data wil be removed. 
 
 5. What is SVG?
+   SVG stands for Scalable Vector Graphics. It is used to display images in XML format. Unlike normal images like JPEG or PNG, SVG images do not lose quality when resized because they are based on mathematical shapes rather than pixels. SVG is widely used for icons, logos, and animations in web applications, and it can also be styled and manipulated using CSS and JavaScript.
+
 6. What are the audio and video tags in HTML5?
+   In HTML5, the <audio> and <video> tags are used to embed media directly into web pages without needing external plugins. The audio tag is used to play sound files, and the video tag is used for videos. Both support attributes like controls, autoplay, and loop. These tags make multimedia integration easy and are supported by modern browsers.
+
 7. What is the location object in HTML?
 8. What is a meta tag in HTML?
 9. Difference between HTML4 and HTML5
-10. What are the attributes of the <img> tag?
-11. What is colspan and rowspan in a table?
-12. What are the different types of lists in HTML?
-13. What is the <progress> element in HTML?
 
 CSS
 1. Difference between CSS and CSS3?
@@ -203,3 +204,234 @@ ReactJS
 48. How to set up a React app?
 49. What is the use of the <Link> component?
 50. What is Axios?
+
+
+1. What is HTML?
+
+HTML (HyperText Markup Language) is used to structure web pages using elements like headings, paragraphs, and links.
+
+2. What are semantic tags?
+
+Tags that clearly define meaning (e.g., <header>, <footer>, <article>).
+
+3. Difference between HTML and HTML5?
+
+HTML5 supports audio/video, semantic tags, localStorage, and better APIs.
+
+4. What is SVG?
+
+SVG (Scalable Vector Graphics) is used to display vector images that scale without losing quality.
+
+5. What is a meta tag?
+
+Provides metadata like description, charset, viewport.
+
+🎨 CSS (6–10)
+6. Difference between class and id?
+
+Class → reusable
+
+ID → unique
+
+7. What is Flexbox?
+
+Layout system for arranging items in rows/columns.
+
+8. What is Grid?
+
+2D layout system (rows + columns).
+
+9. What is responsive design?
+
+Design that adapts to different screen sizes.
+
+10. What is z-index?
+
+Controls stacking order of elements.
+
+⚡ JavaScript (11–20)
+11. What is closure?
+
+Function that remembers its outer variables even after execution.
+
+12. Difference between var, let, const?
+
+var → function scope
+
+let → block scope
+
+const → cannot reassign
+
+13. What is hoisting?
+
+Variables/functions are moved to top during compilation.
+
+14. What is event loop?
+
+Handles async operations in JS.
+
+15. What is promise?
+
+Object representing future completion/failure of async task.
+
+16. async/await?
+
+Cleaner way to handle promises.
+
+17. Difference between == and ===?
+
+== → loose comparison
+
+=== → strict comparison
+
+18. What is DOM?
+
+Document Object Model – represents HTML structure.
+
+19. What is debounce?
+
+Delays function execution to reduce calls.
+
+20. What is throttle?
+
+Limits function execution rate.
+
+⚛️ React (21–30)
+21. What is React?
+
+JavaScript library for building UI.
+
+22. What is component?
+
+Reusable UI block.
+
+23. What are props?
+
+Data passed from parent to child.
+
+24. What is state?
+
+Data managed within component.
+
+25. What is useEffect?
+
+Hook used for side effects (API calls, etc.).
+
+26. What is useState?
+
+Hook to manage state.
+
+27. Virtual DOM?
+
+Lightweight copy of real DOM for faster updates.
+
+28. What is key in React?
+
+Unique identifier for list elements.
+
+29. Controlled vs uncontrolled components?
+
+Controlled → React controls input
+
+Uncontrolled → DOM controls
+
+30. What is React Router?
+
+Used for navigation between pages.
+
+⚙️ Backend (Node.js / Express) (31–40)
+31. What is Node.js?
+
+JavaScript runtime for server-side development.
+
+32. What is Express.js?
+
+Framework for building APIs in Node.js.
+
+33. What is middleware?
+
+Function between request & response.
+
+34. What is REST API?
+
+API using HTTP methods (GET, POST, etc.).
+
+35. Difference between GET and POST?
+
+GET → fetch data
+
+POST → send data
+
+36. What is JSON?
+
+Data format for storing/transferring data.
+
+37. What is JWT?
+
+Token-based authentication system.
+
+38. What is CORS?
+
+Allows/restricts cross-origin requests.
+
+39. What is status code?
+
+Response code (200, 404, 500, etc.).
+
+40. What is API?
+
+Interface for communication between systems.
+
+🗄️ Database (41–45)
+41. What is SQL?
+
+Structured Query Language for relational DB.
+
+42. What is primary key?
+
+Unique identifier in a table.
+
+43. What is join?
+
+Combines data from multiple tables.
+
+44. Difference between SQL and NoSQL?
+
+SQL → structured
+
+NoSQL → flexible
+
+45. What is CRUD?
+
+Create, Read, Update, Delete.
+
+🔧 Misc / Full Stack (46–50)
+46. What is Git?
+
+Version control system.
+
+47. What is GitHub?
+
+Platform to host Git repositories.
+
+48. What is MVC?
+
+Model-View-Controller architecture.
+
+49. What is authentication vs authorization?
+
+Authentication → who you are
+
+Authorization → what you can access
+
+50. Explain your project
+
+Explain:
+
+Purpose
+
+Tech stack
+
+Features
+
+Challenges
