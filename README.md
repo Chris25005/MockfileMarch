@@ -87,8 +87,25 @@ Common semantic tags in HTML5 include:
    In HTML5, the <audio> and <video> tags are used to embed media directly into web pages without needing external plugins. The audio tag is used to play sound files, and the video tag is used for videos. Both support attributes like controls, autoplay, and loop. These tags make multimedia integration easy and are supported by modern browsers.
 
 7. What is the location object in HTML?
+•	The location object is part of the window object in JavaScript and is used to get or manipulate the current URL of the browser. It provides properties like href, hostname, pathname, and methods like reload () and assign (). Developers use it for redirection, navigation, and retrieving URL information dynamically.
+
 8. What is a meta tag in HTML?
+•	Meta tags are used to provide metadata about a webpage, such as character encoding, description, keywords, and viewport settings. These tags are placed inside the head section and are not visible on the webpage. They are important for SEO and browser behaviour, like defining how content should be displayed on mobile devices.
+
 9. Difference between HTML4 and HTML5
+•	HTML5 is an improved version of HTML4 with better support for modern web applications. It introduced semantic elements like header, footer, and section, which improve readability and SEO. It also supports multimedia elements like audio and video without plugins. HTML5 includes APIs like Geolocation and Canvas, making it more powerful and efficient than HTML4.
+
+10. What are the attributes of the <img> tag?  The <img> tag is used to display images in HTML. Important attributes include src, which defines the image path, alt, which provides alternative text for accessibility, and width and height, which control image size. The alt attribute is especially important for screen readers and SEO.
+
+11. What is colspan and rowspan in a table?
+•	In HTML tables, colspan and rowspan are used to merge cells. Colspan is used to merge multiple columns into a single cell, while rowspan is used to merge rows. These attributes help in designing complex table layouts and improving readability.
+
+12. What are the different types of lists in HTML?
+•	HTML supports three types of lists: ordered lists using <ol>, unordered lists using <ul>, and description lists using <dl>. Ordered lists display items in numbered format, unordered lists use bullets, and description lists are used for defining terms and descriptions.
+
+13. What is the <progress> element in HTML?
+•	The <progress> element represents the progress of a task, such as file upload or loading status. It has attributes like value and max to indicate completion percentage. It improves user experience by visually showing progress.
+
 
 CSS
 1. Difference between CSS and CSS3?
