@@ -108,22 +108,64 @@ Common semantic tags in HTML5 include:
 
 
 CSS
-1. Difference between CSS and CSS3?
-2. Difference between position: absolute, relative, and fixed?
-3. What is the CSS box model?
-4. Difference between LESS and SASS?
-5. Difference between class selector and ID selector?
-6. What is Flexbox in CSS?
-7. What is a flex container and flex items?
-8. Difference between visibility: hidden and display: none?
-9. What is the float property?
-10. Explain the universal selector (*)
-11. What is a media query?
-12. How to apply media query in CSS?
-13. What is the purpose of z-index?
-14. Difference between padding and margin?
-15. What is box-shadow and text-shadow in CSS?
-16. What are media types in CSS (screen, print, all)?
+1.	Difference between CSS and CSS3? 
+•	CSS3 is the latest version of CSS and includes advanced features like animations, transitions, gradients, flexbox, and grid. While CSS was mainly used for basic styling, CSS3 provides modern layout techniques and responsive design capabilities, making web pages more interactive and visually appealing.
+
+2.	Difference between position: absolute, relative, and fixed? 
+•	The position property defines how elements are placed. Relative positions the element relative to its normal position. Absolute positions it relative to its nearest positioned parent. Fixed positions it relative to the viewport, meaning it stays in the same place even when scrolling. Each type is used based on layout needs.
+
+3.	What is the CSS box model? 
+•	The CSS box model consists of content, padding, border, and margin. It defines the spacing and layout of elements. Content is the actual data, padding adds space inside the border, border surrounds the padding, and margin creates space outside the element.
+
+4.	Difference between LESS and SASS? 
+•	LESS and SASS are CSS preprocessors that extend CSS functionality. They allow variables, nesting, and functions. SASS is more powerful and widely used with advanced features, while LESS is simpler and easier to learn. Both help in writing cleaner and maintainable CSS.
+
+5.	Difference between class selector and ID selector? 
+•	Class selectors are reusable and can be applied to multiple elements, while ID selectors are unique and used for a single element. Classes are commonly used for styling, whereas IDs are often used for JavaScript targeting.
+
+6.	What is Flexbox in CSS? 
+•	Flexbox is a layout system used to design flexible and responsive layouts. It allows easy alignment of elements in rows or columns, with properties like justify-content and align-items. It simplifies complex layouts compared to older methods like float.
+
+7.	What is Grid?
+•	CSS Grid is a two-dimensional layout system (rows + columns).
+Useful for complex layouts like dashboards.
+
+8.	What is a flex container and flex items? 
+•	A flex container is the parent element with display set to flex. Its children automatically become flex items. The container controls layout behaviour, while items can be adjusted using properties like flex-grow, flex-shrink, and flex-basis.
+
+9.	Difference between visibility: hidden and display: none? 
+•	Visibility hidden hides the element but keeps its space, while display none removes the element completely from the layout. This affects how other elements are positioned on the page.
+
+10.	What is the float property? 
+•	The float property is used to position elements left or right, allowing text to wrap around them. It was commonly used for layouts before flexbox and grid.
+
+11.	Explain the universal selector (*) 
+•	The universal selector selects all elements on a page. It is often used for resetting styles, like removing default margin and padding.
+
+12.	What is a media query? 
+•	Media queries are used to create responsive designs by applying styles based on screen size or device type. They help websites adapt to mobile, tablet, and desktop screens.
+
+13.	How to apply media query in CSS? 
+•	Media queries are applied using the @media rule in CSS, specifying conditions like max-width or min-width. This allows different styles for different devices.
+
+14.	2.What is the purpose of z-index? 
+•	The z-index property controls the vertical stacking of elements. Higher values appear on top of lower ones. It only works on positioned elements.
+
+15.	Difference between padding and margin? 
+•	Padding is space inside the element between content and border, while margin is space outside the element. Padding affects background, margin does not.
+
+16.	What is box-shadow and text-shadow in CSS? 
+•	Box-shadow adds shadow to elements, while text-shadow adds shadow to text. Both improve visual design.
+
+17.	What are media types in CSS (screen, print, all)?
+•	Media types define where styles apply, like screen for devices, print for printing, and all for all media types.
+
+18.	What is responsive design?
+Design technique where UI adapts to different devices using:
+Media queries,
+Flexible layouts,
+Fluid images,
+
 
 JAVASCRIPT
 1. What is ES6?
