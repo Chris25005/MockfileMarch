@@ -494,3 +494,115 @@ Tech stack
 Features
 
 Challenges
+
+1. What is React?
+React is a JavaScript library used for building user interfaces, especially single-page applications. It allows developers to create reusable UI components and efficiently update the UI using a virtual DOM. It was developed by Facebook and is widely used for fast, scalable frontend applications.
+2. What is SPA?
+A Single Page Application loads a single HTML page and dynamically updates content without reloading the page. It improves performance and provides a smoother user experience. React is commonly used to build SPAs.
+3. What is Virtual DOM?
+The Virtual DOM is a lightweight copy of the real DOM. React updates changes in the virtual DOM first, compares it with the previous version, and updates only the changed parts in the real DOM. This improves performance.
+4. Main features of React
+React offers component-based architecture, virtual DOM for performance, one-way data binding, reusable components, and strong community support. It also supports hooks and JSX.
+5. What is state?
+State is an object that holds dynamic data in a component. When the state changes, React re-renders the component automatically. It is used to manage data that affects UI behavior.
+6. What are props?
+Props are inputs passed from parent to child components. They are read-only and help make components reusable and dynamic.
+7. Passing values between components
+Data is passed from parent to child using props, and from child to parent using callback functions. For global sharing, we use Context API or state management tools.
+8. Constructor in class component
+The constructor is used to initialize state and bind methods. It runs before the component is mounted.
+9. super () keyword
+super() is used to call the parent class constructor. It is required before accessing this in class components.
+10. React events
+React events are similar to DOM events but use camelCase naming like onClick. They are wrapped in synthetic events for cross-browser compatibility.
+11. Lifecycle methods
+componentDidMount runs after the component is rendered, used for API calls. componentWillUnmount runs before removal, used for cleanup like clearing timers.
+12. Get previous state value
+We use functional setState:
+setCount(prev => prev + 1)
+This ensures correct updates when state depends on previous value.
+13. setState()
+setState updates the component state and triggers re-rendering. It is asynchronous and should not be mutated directly.
+14. Keys in lists
+Keys help React identify which elements changed in a list. They improve performance and avoid unnecessary re-renders.
+15. useRef
+useRef is used to access DOM elements directly or persist values without re-rendering.
+16. React.memo()
+React.memo prevents unnecessary re-renders by memoizing functional components based on props.
+17. Forms (controlled vs uncontrolled)
+Controlled components use state to manage input values. Uncontrolled components use refs. Controlled is preferred for better control and validation.
+18. React architecture
+React follows a component-based architecture where UI is broken into reusable components with unidirectional data flow.
+19. React Hooks
+Hooks allow using state and lifecycle features in functional components:
+•	useState → manage state 
+•	useEffect → side effects 
+•	useMemo → memoize values 
+•	useCallback → memoize functions 
+•	useContext → global state 
+•	useReducer → complex state 
+•	useRef → DOM access 
+20. Custom hooks
+Custom hooks are reusable functions that use built-in hooks to share logic across components.
+21. useNavigate
+useNavigate is a React Router hook used to navigate programmatically between pages.
+22. Memory optimization
+Reducing unnecessary renders using memoization techniques like React.memo, useMemo, and useCallback.
+23. useCallback vs useMemo
+useCallback memoizes functions, while useMemo memoizes computed values.
+24. useReducer
+useReducer is used for complex state logic and works similar to Redux with actions and reducers.
+25. Class vs Functional components
+Class components use lifecycle methods and this keyword. Functional components use hooks and are simpler and more modern.
+26. JSX
+JSX is a syntax that allows writing HTML-like code inside JavaScript. It makes UI code more readable.
+27. React Router
+React Router is used for navigation in React apps without page reloads.
+28. Configure React Router
+Install react-router-dom, define routes using <Routes> and <Route> components, and wrap app with BrowserRouter.
+29. Conditional rendering
+Rendering UI based on conditions using if, ternary operator, or logical &&.
+30. Hydration
+Hydration is attaching event listeners to server-rendered HTML in React, used in SSR.
+31. React fragments
+Fragments allow grouping multiple elements without adding extra DOM nodes.
+32. Controlled vs uncontrolled
+Controlled uses state, uncontrolled uses refs. Controlled gives more control over form data.
+33. Performance optimization
+Using memoization, lazy loading, code splitting, and avoiding unnecessary renders.
+34. Code splitting
+Breaking code into smaller chunks to load only required parts, improving performance.
+35. Lazy loading
+Loading components only when needed using React.lazy and Suspense.
+36. Type checking (PropTypes)
+PropTypes validate component props and help catch bugs.
+37. Reuse code
+Using components, hooks, and higher-order components.
+38. Diffing algorithm
+React compares virtual DOM with previous version and updates only changed elements.
+39. Pass data between components
+Props, callbacks, Context API, or state management libraries.
+40. State management
+Managing application state using useState, useReducer, Context API, or tools like Redux.
+41. Synthetic events
+React wraps native events into synthetic events for better cross-browser compatibility.
+42. Error handling
+Using try-catch for async code and Error Boundaries for UI errors.
+43. PropTypes
+Used for type checking props in React components.
+44. StrictMode
+StrictMode is a tool for highlighting potential problems in React apps during development.
+
+45. Error boundaries
+Components that catch JavaScript errors in child components and display fallback UI.
+46. Reduce bundle size
+Using code splitting, lazy loading, tree shaking, and removing unused libraries.
+47. Optimize performance
+Avoid re-renders, use memoization, optimize state updates, and use proper keys.
+48. Set up React app
+Using Create React App or Vite, install dependencies, and start development server.
+49. <Link> component
+Used for navigation without page reload in React Router.
+50. Axios
+Axios is a promise-based HTTP client used to make API requests.
+
